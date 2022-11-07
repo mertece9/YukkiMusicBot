@@ -7,18 +7,18 @@
 #
 # All rights reserved.
 
-HELP_1 = """✅**<u>Admin Commands:</u>**
+HELP_1 = """✅**<u>Admin Komutları:</u>**
 
 **c** stands for channel play.
 
-/pause or /cpause - Pause the playing music.
-/resume or /cresume- Resume the paused music.
+/durdur - Müziği Durdurur.
+/devam - Müziğe Devam eder.
 /mute or /cmute- Mute the playing music.
 /unmute or /cunmute- Unmute the muted music.
-/skip or /cskip- Skip the current playing music.
-/stop or /cstop- Stop the playing music.
-/shuffle or /cshuffle- Randomly shuffles the queued playlist.
-/seek or /cseek - Forward Seek the music to your duration
+/atla - Sıradaki Müziğe geçer.
+/son - Çalan Müziğe son verir.
+/karistir - Playlistten rastgele müzik açar.
+/ara - Müzik arar.
 /seekback or /cseekback - Backward Seek the music to your duration
 /restart - Restart bot for your chat .
 
@@ -39,9 +39,9 @@ Auth Users can use admin commands without admin rights in your chat.
 /authusers - Check AUTH LIST of the group."""
 
 
-HELP_2 = """✅<u>**Play Commands:**</u>
+HELP_2 = """✅<u>**Oynatma Komutları:**</u>
 
-Available Commands = play , vplay , cplay
+Available Commands = oynat , vplay , cplay
 
 ForcePlay Commands = playforce , vplayforce , cplayforce
 
@@ -49,20 +49,20 @@ ForcePlay Commands = playforce , vplayforce , cplayforce
 **v** stands for video play.
 **force** stands for force play.
 
-/play or /vplay or /cplay  - Bot will start playing your given query on voice chat or Stream live links on voice chats.
+/oynat or /vplay or /cplay  - Bot will start playing your given query on voice chat or Stream live links on voice chats.
 
 /playforce or /vplayforce or /cplayforce -  **Force Play** stops the current playing track on voice chat and starts playing the searched track instantly without disturbing/clearing queue.
 
 /channelplay [Chat username or id] or [Disable] - Connect channel to a group and stream music on channel's voice chat from your group.
 
 
-✅**<u>Bot's Server Playlists:</u>**
+✅**<u>Bot'un Sunucu Oynatma Listeleri:</u>**
 /playlist  - Check Your Saved Playlist On Servers.
 /deleteplaylist - Delete any saved music in your playlist
 /play  - Start playing Your Saved Playlist from Servers."""
 
 
-HELP_3 = """✅<u>**Bot Commands:**</u>
+HELP_3 = """✅<u>**Bot Komutları:**</u>
 
 /stats - Get Top 10 Tracks Global Stats, Top 10 Users of bot, Top 10 Chats on bot, Top 10 Played in a chat etc etc.
 
@@ -70,7 +70,7 @@ HELP_3 = """✅<u>**Bot Commands:**</u>
 
 /lyrics [Music Name] - Searches Lyrics for the particular Music on web.
 
-/song [Track Name] or [YT Link] - Download any track from youtube in mp3 or mp4 formats.
+/indir [Track Name] or [YT Link] - Download any track from youtube in mp3 or mp4 formats.
 
 /player -  Get a interactive Playing Panel.
 
@@ -78,7 +78,7 @@ HELP_3 = """✅<u>**Bot Commands:**</u>
 
 /queue or /cqueue- Check Queue List of Music."""
 
-HELP_4 = """✅<u>**Extra  Commands:**</u>
+HELP_4 = """✅<u>**Extra  Komutlar:**</u>
 /start - Start the Music Bot.
 /help  - Get Commands Helper Menu with detailed explanations of commands.
 /ping- Ping the Bot and check Ram, Cpu etc stats of Bot.
